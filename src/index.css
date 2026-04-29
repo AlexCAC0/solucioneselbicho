@@ -1,0 +1,43 @@
+:root {
+  --bg-dark: #0a0a0a;
+  --bg-card: #141414;
+  --violet-primary: #8b5cf6;
+  --violet-secondary: #7c3aed;
+  --violet-accent: #a78bfa;
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --glow: rgba(139, 92, 246, 0.3);
+  
+  --sans: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  font-family: var(--sans);
+  color-scheme: dark;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: transparent; /* Permitir ver el canvas detrás */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

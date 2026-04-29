@@ -1,0 +1,50 @@
+
+> soluciones-el-bicho@0.0.0 dev
+> vite
+
+file:///C:/Users/Usuario/Desktop/soluciones%20el%20bicho/node_modules/rolldown/dist/shared/binding-BeU_1iEk.mjs:507
+                if (loadErrors.length > 0) throw new Error("Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.", { cause: loadErrors.reduce((err, cur) => {
+                                                 ^
+
+Error: Cannot find native binding. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+    at file:///C:/Users/Usuario/Desktop/soluciones%20el%20bicho/node_modules/rolldown/dist/shared/binding-BeU_1iEk.mjs:507:36
+    at file:///C:/Users/Usuario/Desktop/soluciones%20el%20bicho/node_modules/rolldown/dist/shared/binding-BeU_1iEk.mjs:9:49
+    at file:///C:/Users/Usuario/Desktop/soluciones%20el%20bicho/node_modules/rolldown/dist/shared/parse-B_ZnWxLZ.mjs:3:46
+    at ModuleJob.run (node:internal/modules/esm/module_job:430:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:661:26)
+    at async CAC.<anonymous> (file:///C:/Users/Usuario/Desktop/soluciones%20el%20bicho/node_modules/vite/dist/node/cli.js:707:27) {
+  [cause]: Error: \\?\C:\Users\Usuario\Desktop\soluciones el bicho\node_modules\@rolldown\binding-win32-x64-msvc\rolldown-binding.win32-x64-msvc.node no es una aplicaci�n Win32 v�lida.
+  \\?\C:\Users\Usuario\Desktop\soluciones el bicho\node_modules\@rolldown\binding-win32-x64-msvc\rolldown-binding.win32-x64-msvc.node
+      at Object..node (node:internal/modules/cjs/loader:1970:18)
+      at Module.load (node:internal/modules/cjs/loader:1533:32)
+      at Module._load (node:internal/modules/cjs/loader:1335:12)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+      at Module.require (node:internal/modules/cjs/loader:1556:12)
+      at require (node:internal/modules/helpers:152:16)
+      at requireNative (file:///C:/Users/Usuario/Desktop/soluciones%20el%20bicho/node_modules/rolldown/dist/shared/binding-BeU_1iEk.mjs:147:21)
+      at file:///C:/Users/Usuario/Desktop/soluciones%20el%20bicho/node_modules/rolldown/dist/shared/binding-BeU_1iEk.mjs:475:18
+      at file:///C:/Users/Usuario/Desktop/soluciones%20el%20bicho/node_modules/rolldown/dist/shared/binding-BeU_1iEk.mjs:9:49
+      at file:///C:/Users/Usuario/Desktop/soluciones%20el%20bicho/node_modules/rolldown/dist/shared/parse-B_ZnWxLZ.mjs:3:46 {
+    code: 'ERR_DLOPEN_FAILED',
+    cause: Error: Cannot find module './rolldown-binding.win32-x64-msvc.node'
+    Require stack:
+    - C:\Users\Usuario\Desktop\soluciones el bicho\node_modules\rolldown\dist\shared\binding-BeU_1iEk.mjs
+        at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)
+        at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+        at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+        at Module._load (node:internal/modules/cjs/loader:1242:25)
+        at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+        at Module.require (node:internal/modules/cjs/loader:1556:12)
+        at require (node:internal/modules/helpers:152:16)
+        at requireNative (file:///C:/Users/Usuario/Desktop/soluciones%20el%20bicho/node_modules/rolldown/dist/shared/binding-BeU_1iEk.mjs:142:12)
+        at file:///C:/Users/Usuario/Desktop/soluciones%20el%20bicho/node_modules/rolldown/dist/shared/binding-BeU_1iEk.mjs:475:18
+        at file:///C:/Users/Usuario/Desktop/soluciones%20el%20bicho/node_modules/rolldown/dist/shared/binding-BeU_1iEk.mjs:9:49 {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [
+        'C:\\Users\\Usuario\\Desktop\\soluciones el bicho\\node_modules\\rolldown\\dist\\shared\\binding-BeU_1iEk.mjs'
+      ]
+    }
+  }
+}
+
+Node.js v24.14.1
