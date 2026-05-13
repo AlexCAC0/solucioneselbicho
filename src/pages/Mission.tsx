@@ -14,11 +14,11 @@ const Mission = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <div className="service-card" style={{ textAlign: 'center', padding: '60px' }}>
-          <h2 style={{ color: 'var(--violet-accent)', marginBottom: '30px' }}>VISIÓN 2030</h2>
+          <h2 style={{ color: 'var(--violet-accent)', marginBottom: '30px' }}>VISIÓN Y OBJETIVO</h2>
           <p style={{ fontSize: '1.2rem', lineHeight: '2' }}>
-            "En Soluciones el Bicho, nuestra misión es democratizar el acceso a la tecnología de vanguardia. 
-            Creemos en un futuro donde cada negocio, sin importar su tamaño, tenga el poder de una supercomputadora 
-            en la palma de su mano. Estamos aquí para construir los puentes digitales hacia esa realidad."
+            "En Soluciones el Bicho, nuestro objetivo es facilitar el acceso a herramientas tecnológicas modernas. 
+            Creemos que cada negocio puede mejorar su rendimiento mediante la implementación de soluciones digitales
+            prácticas y bien diseñadas. Estamos aquí para acompañarte en ese proceso."
           </p>
           <div className="card-glow" style={{ opacity: 0.3 }}></div>
         </div>

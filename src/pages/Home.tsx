@@ -11,9 +11,9 @@ const Home = () => {
   const opacityHero = useTransform(scrollY, [0, 300], [1, 0]);
 
   const services = [
-    { title: 'Desarrollo Web', description: 'Naves nodrizas digitales que impulsan tu presencia en la red con velocidad luz.' },
-    { title: 'Diseño UI/UX', description: 'Interfaces de otro planeta, diseñadas para cautivar a cualquier especie del universo.' },
-    { title: 'Sistemas Futuros', description: 'Consultoría en IA y automatización para negocios que ya viven en el mañana.' }
+    { title: 'Desarrollo Web', description: 'Creamos sitios web modernos y optimizados para potenciar tu presencia digital.' },
+    { title: 'Diseño UI/UX', description: 'Interfaces intuitivas y atractivas diseñadas para mejorar la experiencia del usuario.' },
+    { title: 'Sistemas Digitales', description: 'Consultoría y soluciones tecnológicas para optimizar los procesos de tu negocio.' }
   ]
 
   return (
@@ -25,8 +25,8 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            Tecnología del <br />
-            <span className="futuristic-text">FUTURO</span>
+            Tecnología al <br />
+            <span className="futuristic-text">ALCANCE</span>
           </motion.h1>
           <motion.p
             className="hero-subtitle"
@@ -35,7 +35,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            Explorando las fronteras digitales para llevar tu negocio más allá de la atmósfera convencional.
+            Soluciones innovadoras diseñadas para llevar tu negocio al siguiente nivel digital.
           </motion.p>
           <motion.div 
             className="hero-buttons"
@@ -45,10 +45,10 @@ const Home = () => {
             transition={{ delay: 0.8 }}
           >
             <Link to="/servicios">
-              <button className="btn-space">Iniciar Misión</button>
+              <button className="btn-space">Ver Servicios</button>
             </Link>
             <Link to="/productos">
-              <button className="btn-glass">Explorar Galaxia</button>
+              <button className="btn-glass">Ver Productos</button>
             </Link>
           </motion.div>
         </motion.div>
@@ -62,7 +62,7 @@ const Home = () => {
           viewport={{ once: true }}
           className="section-title"
         >
-          NUESTRAS CÁPSULAS
+          NUESTRAS SOLUCIONES
         </motion.h2>
         <div className="services-grid">
           {services.map((service, index) => (

@@ -10,7 +10,7 @@ const About = () => {
         className="hero-mini"
       >
         <h1 className="futuristic-text">EL BICHO</h1>
-        <p className="hero-subtitle">Nuestra historia en la vanguardia digital.</p>
+        <p className="hero-subtitle">Conoce nuestra historia y compromiso con la tecnología.</p>
       </motion.section>
 
       <ConstellationTimeline />
@@ -22,7 +22,7 @@ const About = () => {
           whileInView={{ x: 0, opacity: 1 }}
         >
           <h3>Quiénes Somos</h3>
-          <p>Somos un colectivo de ingenieros y diseñadores apasionados por la tecnología del mañana. En Soluciones el Bicho, no solo arreglamos sistemas, los reinventamos.</p>
+          <p>Somos un equipo de profesionales apasionados por brindar soluciones tecnológicas eficientes. En Soluciones el Bicho, nos enfocamos en optimizar tus sistemas para que puedas centrarte en lo que importa.</p>
         </motion.div>
 
         <motion.div 
@@ -30,8 +30,8 @@ const About = () => {
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
         >
-          <h3>Nuestra Misión</h3>
-          <p>Acelerar la transición digital de los negocios locales hacia estándares globales de eficiencia y diseño galáctico.</p>
+          <h3>Nuestra Visión</h3>
+          <p>Facilitar la evolución tecnológica de las empresas locales, aplicando estándares modernos de eficiencia y diseño funcional.</p>
         </motion.div>
       </section>
     </div>

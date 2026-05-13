@@ -2,15 +2,15 @@ import { motion } from 'framer-motion'
 
 const ConstellationTimeline = () => {
   const events = [
-    { year: '2020', title: 'Ignición', desc: 'Nace Soluciones el Bicho en un garaje digital.' },
-    { year: '2022', title: 'Órbita', desc: 'Primeras 100 empresas locales digitalizadas.' },
-    { year: '2024', title: 'Expansión', desc: 'Apertura del nodo central de IA avanzada.' },
-    { year: '2026', title: 'Infinito', desc: 'Dominio total del mercado tecnológico regional.' }
+    { year: 'Objetivo 1', title: 'Fundación', desc: 'Establecer las bases de una consultora tecnológica sólida.' },
+    { year: 'Objetivo 2', title: 'Crecimiento', desc: 'Digitalizar 100 empresas locales con soluciones modernas.' },
+    { year: 'Objetivo 3', title: 'Innovación', desc: 'Implementar herramientas de automatización eficientes.' },
+    { year: 'Objetivo 4', title: 'Liderazgo', desc: 'Convertirnos en referentes tecnológicos de la región.' }
   ]
 
   return (
     <section className="timeline">
-      <h2 className="section-title">NUESTRA TRAYECTORIA</h2>
+      <h2 className="section-title">NUESTROS OBJETIVOS</h2>
       <div className="constellation-container">
         {events.map((e, i) => (
           <motion.div 

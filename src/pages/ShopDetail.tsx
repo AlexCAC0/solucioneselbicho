@@ -1,45 +1,52 @@
 import { motion } from 'framer-motion'
 import { useParams, Link } from 'react-router-dom'
 
+interface ShopInfo {
+  name: string;
+  icon: string;
+  desc: string;
+  inventory: string[];
+}
+
 const ShopDetail = () => {
   const { shopId } = useParams();
 
-  const shopData: Record<string, any> = {
+  const shopData: Record<string, ShopInfo> = {
     'rep': {
-      name: 'NÚCLEO DE REPARACIÓN',
+      name: 'CENTRO DE REPARACIÓN',
       icon: '🔧',
-      desc: 'Expertos en revivir hardware que otros dieron por muerto. Usamos soldadura láser y diagnósticos cuánticos.',
-      inventory: ['Reparación de Placas Base', 'Recuperación de Datos', 'Limpieza Ultrasonido', 'Reballing de GPU']
+      desc: 'Expertos en reparación de hardware y diagnósticos avanzados para todo tipo de equipos.',
+      inventory: ['Reparación de Placas Base', 'Recuperación de Datos', 'Limpieza Técnica', 'Mantenimiento de GPU']
     },
     'per': {
-      name: 'ZONA PERIFÉRICA',
+      name: 'ZONA DE PERIFÉRICOS',
       icon: '⌨️',
-      desc: 'El arsenal que todo gamer y profesional necesita. Si brilla y es rápido, lo tenemos.',
-      inventory: ['Teclados Mecánicos Custom', 'Ratones de Precisión', 'Monitores 400Hz', 'Auriculares Espaciales']
+      desc: 'El equipamiento que todo profesional y entusiasta necesita para su estación de trabajo.',
+      inventory: ['Teclados Mecánicos', 'Ratones de Precisión', 'Monitores Profesionales', 'Auriculares de Alta Fidelidad']
     },
     'rest': {
-      name: 'CIBER CAFÉ NEBULA',
+      name: 'ESPACIO COWORKING',
       icon: '☕',
-      desc: 'El lugar de descanso para nómadas digitales. Conexión de 10Gbps y el mejor café de la galaxia.',
-      inventory: ['Café Estelar', 'Bebidas Energéticas', 'Estaciones de Trabajo', 'Zona de Gaming VR']
+      desc: 'Un lugar de descanso y trabajo para profesionales. Conexión de alta velocidad y ambiente tranquilo.',
+      inventory: ['Servicio de Café', 'Snacks', 'Estaciones de Trabajo', 'Zona de Reuniones']
     },
     'rent': {
-      name: 'ALQUILER DE NAVES',
-      icon: '🚀',
-      desc: '¿Necesitas potencia para un proyecto pesado? Alquila nuestras estaciones de trabajo de alto rendimiento.',
-      inventory: ['Workstations RTX 4090', 'Servidores de Renderizado', 'PCs para Torneos', 'Laptops de Gama Alta']
+      name: 'ALQUILER DE EQUIPOS',
+      icon: '💻',
+      desc: '¿Necesitas potencia temporal? Alquila nuestras estaciones de trabajo de alto rendimiento.',
+      inventory: ['Workstations de Diseño', 'Servidores Temporales', 'Equipos para Eventos', 'Laptops Profesionales']
     },
     'sale': {
-      name: 'VENTA DE SUPERCOMPUTADORAS',
+      name: 'VENTA DE COMPUTADORAS',
       icon: '💎',
-      desc: 'Nuestras máquinas personalizadas "Bicho-Edition". Construidas para durar e impresionar.',
-      inventory: ['Edición Limitada Bicho v2', 'Sistemas de Refrigeración Líquida', 'Workstations Profesionales', 'Equipos Gaming a Medida']
+      desc: 'Nuestros equipos personalizados diseñados para ofrecer el mejor rendimiento y durabilidad.',
+      inventory: ['Equipos de Oficina', 'Sistemas de Alto Rendimiento', 'Workstations Profesionales', 'Equipos a Medida']
     },
     'lab': {
-      name: 'CENTRO DE IA',
-      icon: '🧠',
-      desc: 'Donde el software cobra vida. Consultoría y entrenamiento de modelos de inteligencia artificial.',
-      inventory: ['Entrenamiento de Modelos', 'Automatización de Procesos', 'Integración de LLMs', 'Análisis de Datos Masivos']
+      name: 'DESARROLLO Y CONSULTORÍA',
+      icon: '💻',
+      desc: 'Donde las ideas se convierten en soluciones. Consultoría tecnológica y desarrollo a medida.',
+      inventory: ['Desarrollo de Software', 'Automatización de Procesos', 'Integración de Sistemas', 'Análisis de Datos']
     }
   };
 
@@ -48,7 +55,7 @@ const ShopDetail = () => {
   return (
     <div className="page-content shop-detail-page">
       <Link to="/showroom-3d" className="btn-glass" style={{ marginBottom: '30px', display: 'inline-block' }}>
-        ← VOLVER AL MALL
+        ← VOLVER AL SHOWROOM
       </Link>
       
       <motion.div 
@@ -75,7 +82,7 @@ const ShopDetail = () => {
               transition={{ delay: i * 0.1 }}
             >
               <h4>{item}</h4>
-              <p>Disponible para despliegue inmediato.</p>
+              <p>Disponible para solicitud inmediata.</p>
               <button className="btn-space" style={{ marginTop: '15px', padding: '8px 20px', fontSize: '0.7rem' }}>SOLICITAR</button>
             </motion.div>
           ))}

@@ -1,49 +1,53 @@
-# Soluciones EL BICHO 🚀
+# Soluciones EL BICHO 🌌
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+**Soluciones EL BICHO** es una plataforma web moderna diseñada para una consultoría tecnológica de vanguardia. Con una estética galáctica y profesional, este proyecto combina animaciones fluidas, efectos 3D y una interfaz de usuario inmersiva para ofrecer soluciones digitales al alcance de todos.
 
-**Soluciones EL BICHO** es una plataforma web futurista diseñada para un centro tecnológico de vanguardia. Con una estética galáctica y profesional, este proyecto combina animaciones fluidas, efectos 3D y una interfaz de usuario inmersiva.
+## 🚀 Características Principales
 
-## ✨ Características
+- 🌌 **Fondo Galáctico Dinámico:** Sistema de partículas animado mediante Canvas para una atmósfera inmersiva.
+- 💻 **Showroom Interactivo:** Un espacio 3D para explorar servicios de reparación, periféricos, coworking y más.
+- ⚡ **Tecnología al Alcance:** Enfoque en desarrollo web, seguridad digital y automatización de procesos.
+- 📱 **Responsive Design:** Optimizado para ofrecer una experiencia fluida en dispositivos móviles y de escritorio.
+- 🧪 **Componentes Avanzados:** Uso de Framer Motion para transiciones de página y animaciones de alta fidelidad.
 
-- 🌌 **Fondo Galáctico Dinámico:** Sistema de partículas animado mediante Canvas.
-- 🏢 **Showroom 3D:** Complejo tecnológico interactivo de 2 niveles con perspectiva isométrica.
-- 🚀 **Transiciones Espaciales:** Animaciones de "velocidad luz" entre páginas.
-- 💎 **Glassmorphism Pro:** Interfaz basada en cristal esmerilado con efectos de neón violeta.
-- 📱 **Responsive Design:** Optimizado para todas las dimensiones de pantalla.
-- ⚡ **Optimización:** Motor de renderizado ligero para un alto rendimiento.
-
-## 🛠️ Tecnologías
+## 🛠️ Stack Tecnológico
 
 - **Frontend:** React 19 + TypeScript
-- **Estilos:** CSS3 con variables personalizadas
+- **Estilos:** CSS3 con variables personalizadas y animaciones avanzadas
 - **Animaciones:** Framer Motion
-- **Enrutado:** React Router DOM
+- **Navegación:** React Router 7
 - **Herramienta de Construcción:** Vite
+
+## 📂 Estructura del Proyecto
+
+- `/src/pages`: Contiene las páginas principales (Home, About, Services, Products, etc.).
+- `/src/components`: Componentes reutilizables como el fondo galáctico, navbar y timeline de objetivos.
+- `/src/assets`: Recursos visuales y multimedia.
 
 ## 🚀 Instalación y Uso
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/TU_USUARIO/soluciones-el-bicho.git
+   git clone https://github.com/tu-usuario/soluciones-el-bicho.git
    ```
+
 2. Instala las dependencias:
    ```bash
    npm install
    ```
+
 3. Inicia el servidor de desarrollo:
    ```bash
    npm run dev
    ```
 
-## 📂 Estructura del Proyecto
+4. Para construir el proyecto para producción:
+   ```bash
+   npm run build
+   ```
 
-- `/src/pages`: Contiene las secciones principales del sitio (Home, Nosotros, Tiendas, etc.)
-- `/src/components`: Componentes reutilizables como el fondo galáctico, navbar y efectos especiales.
-- `/src/assets`: Recursos visuales y multimedia.
+## 📝 Nota sobre los Cambios Recientes
 
----
-Desarrollado con ❤️ para **Soluciones EL BICHO** - *Tecnología del Futuro, Hoy.*
+El proyecto ha sido actualizado recientemente para simplificar su lenguaje y tono, pasando de una narrativa de "ciencia ficción" a una propuesta de consultoría tecnológica profesional y accesible, manteniendo su identidad visual única.
+
+Desarrollado con ❤️ para **Soluciones EL BICHO** - *Tecnología al Alcance.*

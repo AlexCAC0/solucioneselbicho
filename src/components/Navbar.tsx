@@ -26,7 +26,7 @@ const Navbar = () => {
         <li><Link to="/showroom-3d">Showroom 3D</Link></li>
         <li><Link to="/mision">Misión</Link></li>
         <li><Link to="/faq">FAQ</Link></li>
-        <li><Link to="/contacto" className="nav-cta">Portal</Link></li>
+        <li><Link to="/contacto" className="nav-cta">Contacto</Link></li>
       </ul>
     </nav>
   )

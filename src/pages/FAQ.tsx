@@ -2,17 +2,17 @@ import { motion } from 'framer-motion'
 
 const FAQ = () => {
   const faqs = [
-    { q: '¿Qué servicios ofrecen exactamente?', a: 'Desde desarrollo web hasta inteligencia artificial avanzada y soporte técnico IT.' },
-    { q: '¿Cómo puedo contactar con soporte?', a: 'A través de nuestro portal de enlace (sección Contacto) o vía telepatía digital (próximamente).' },
-    { q: '¿Sus soluciones son escalables?', a: 'Nuestros sistemas están diseñados para crecer a la velocidad de la luz junto con tu negocio.' },
-    { q: '¿Trabajan de forma remota?', a: 'Operamos desde cualquier punto de la galaxia con conexión a la red.' }
+    { q: '¿Qué servicios ofrecen exactamente?', a: 'Ofrecemos desarrollo de sitios web personalizados, diseño de interfaces y consultoría en optimización de procesos digitales.' },
+    { q: '¿Cómo puedo contactar con soporte?', a: 'Puedes contactarnos a través de nuestra sección de contacto o enviándonos un correo directamente.' },
+    { q: '¿Sus soluciones son escalables?', a: 'Sí, diseñamos nuestros sistemas para que puedan crecer y adaptarse a las necesidades de tu negocio a largo plazo.' },
+    { q: '¿Trabajan de forma remota?', a: 'Sí, trabajamos de forma remota para ofrecer nuestros servicios a clientes de cualquier ubicación.' }
   ]
 
   return (
     <div className="page-content">
       <section className="hero-mini">
-        <h1 className="futuristic-text">PREGUNTAS FRECUENTES</h1>
-        <p className="hero-subtitle">Protocolos de ayuda y resolución de dudas.</p>
+        <h1>PREGUNTAS FRECUENTES</h1>
+        <p className="hero-subtitle">Resolvemos tus dudas principales.</p>
       </section>
 
       <div className="contact-container">

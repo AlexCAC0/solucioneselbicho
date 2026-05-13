@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 const LoadingScreen = () => {
   const [text, setText] = useState('');
-  const fullText = 'SOLUCIONES EL BICHO - INITIALIZING SYSTEMS...';
+  const fullText = 'SOLUCIONES EL BICHO - CARGANDO...';
 
   useEffect(() => {
     let index = 0;
